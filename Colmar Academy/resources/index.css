@@ -1,0 +1,313 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    width: 100%;
+}
+
+.header h1 {
+    color: black;
+    opacity: 70%;
+    text-align: center;
+}
+
+.navigation {
+    color: #4C4E52;
+    text-align: center;
+}
+
+.navigation > li {
+    display: inline;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.navigation a {
+    color: #4C4E52;
+    text-decoration: none;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+  
+.navigation a:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+nav a:active {
+    color: black;
+}
+
+.banner-containers {
+    display: flex;
+    background-color: #E6E6E3;
+    max-width: 100%;
+    align-items: center;
+}
+
+.banner-image {
+    padding: 32px 24px;
+    display: flex;
+    align-items: center;
+}
+ 
+.banner-image img {
+    width: auto;
+    height: 500px;
+}
+
+.banner-text {
+    padding: 20px;
+    width: 400px;
+}
+
+h2 {
+    color: #4C4E52;
+    font-size: 37px;
+    font-weight: bold;
+}
+
+h4  {
+    font-size: 24px;
+    color: #4C4E52;
+    font-weight: lighter;
+}
+
+.banner-containers p {
+    color: gray;
+    background-color: #4C4E52;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 250px;
+    height: 25px;
+}
+
+.banner-containers a {
+    color: white;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+.banner-containers a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.banner-containers a:active {
+    color: orange;
+}
+
+
+.information-containers {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (5, 1fr);
+    box-sizing: border-box;
+    padding: 32px 24px;
+}
+
+.information-containers .main {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.information-containers .main img {
+    width: 660px;
+}
+
+.information-containers h3{
+    color: #4C4E52;
+    font-size: 37px;
+    font-weight: bold;
+
+}
+
+.information-containers h5 {
+    font-size: 16px;
+    color: #4C4E52;
+    font-weight: lighter;
+    width: 750px;
+}
+
+.information-containers h6 {
+    color: #4C4E52;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.info {
+    padding: 16px;
+}
+
+.information-containers .info img {
+    width: auto;
+    height: 75px;
+    margin-bottom: -25px;
+}
+
+.information-containers .info h6 {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.information-containers .info p {
+    font-size: 12px;
+}
+
+.information-containers a {
+    text-decoration-line: none;
+}
+
+.learning-title {
+    text-align: center;
+    font-size: 32px;
+    color: #4C4E52;
+    padding-top: 32px;
+}
+
+.learning-containers {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (2, 1fr);
+    box-sizing: border-box;
+    background-color: #E6E6E3;
+    padding: 32px 24px;
+}
+
+.learning {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+    background-color: white;
+    border: 3px solid #E6E6E3;
+}
+
+.learning img {
+    height: 200px;
+    width: auto;
+    padding: 15px 15px;
+    margin-bottom: -35px;
+}
+
+.learning h6 {
+    font-size: 18px;
+    padding-left: 16px;
+    margin-bottom: 0px;
+}
+
+.learning p { 
+    font-size: 16px;
+    padding: 16px;
+    color: #4C4E52;
+}
+
+.thesis-title {
+    text-align: center;
+    font-size: 32px;
+    color: #4C4E52;
+    padding-top: 32px;
+}
+
+.thesis-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (4, 1fr);
+    box-sizing: border-box;
+    padding: 32px 24px;
+}
+
+.thesis-main {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+video {
+    width: 660px;
+}
+
+.thesis-main h3 {
+    color: #4C4E52;
+    font-size: 18px;
+    font-weight: bold; 
+}
+
+.thesis-main p {
+    font-size: 14px;
+    color: #4C4E52;
+    font-weight: lighter;
+    width: 750px;
+}
+
+.thesis img {
+    width: 100px;
+    height: 100px;
+}
+
+.thesis h3 {
+    color: #4C4E52;
+    font-size: 18px;
+    font-weight: bold; 
+}
+
+.thesis p  {
+    font-size: 14px;
+    color: #4C4E52;
+    font-weight: lighter;
+}
+
+.copy-right {
+    float: left;
+}
+
+.footer {
+    color: black;
+    text-decoration: underline;
+    text-decoration-line: none;
+    }
+
+ .footer li {
+    display: table-cell;
+    vertical-align: center;
+    height: 100%;
+ }
+
+ .footer:hover {
+    color: #4C4E52;
+    cursor: pointer;
+ }
+
+.footer-head {
+    border-top: 1px solid #4C4E52;
+}
+
+.copy-right {
+    padding: 20px;
+    color: #4C4E52;
+}
+
+.footer a{
+    float: right;
+    display: inline-flex;
+    padding: 20px;
+    color: #4C4E52;
+    text-decoration-line: none;
+}
+
+ .footer a:hover {
+    color: black;
+    cursor: pointer;
+ }
